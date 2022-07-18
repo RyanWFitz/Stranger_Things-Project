@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;;
+}
+body{
+    display: flex;
+    background-color: #87bba2;
+    justify-content: center;
+}
+
+nav {
+    background-color: #55828b;
+    display: flex;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    height: 100px;
+    width: 200px;
+}
+
+.navLink {
+    align-items: center;
+    margin-right: 1rem;
+    font-weight: bolder;
+    color: blue;
+}
+
+.navLink:hover{
+    color: red;
+}
+
+#pageTitle {
+ display: flex;
+ justify-content: center;
+ background-color: #c9e4ca;
+ padding: 10px;
+}
+
+#pageIntro{
+    font-size: larger;
+    font-weight: bold;
+    background-color: #c9e4ca;
+    padding: 10px;    
+}
+
+.post-body{
+    background-color: #c9e4ca;
+    padding: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.item-body:hover{
+    background-color: white;
+}
+
+.item-body{
+    background-color: #d9ebda;
+    margin: 1rem;
+    padding: 1rem;
+    font: 16px;
+}
+
+.button{
+    padding: 5px;
+}
+
+.input-text{
+    padding: 5px;
+}
+
+.posts-title{
+    display: flex;
+    justify-content: center;
+}
+
+.item-submit{
+    background-color: #d9ebda;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.sent-received-messages{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    background-color: #d9ebda;
+
+}
+
+.sent-messages{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d9ebda;
+    padding: 5px;
+}
+
+.received-messages{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d9ebda;
+    padding: 5px;
+}
+
+.user-profile-name{
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.featured-post{
+    position: fixed;
+    background-color: #ddd6d6;
+    border: 3px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
